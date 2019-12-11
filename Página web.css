@@ -1,0 +1,325 @@
+
+body{
+    background-image: url(img/fondo.jpg);    
+    
+    
+}
+
+header{
+    background-image: url(img/header.jpg);
+    color:wheat;
+    text-align: center;
+    background-color:transparent;    
+    width:auto;   
+    padding: 1%;
+    margin: 5%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+h2{
+    color: wheat;
+    font-size: 300%;
+    text-align: center;
+}
+
+    
+
+div.Rodapie{
+    background-image: url(img/header.jpg);
+    color:wheat;   
+    text-align: center;
+    background-color:transparent;    
+    width:auto; 
+    margin:0 !important;
+    padding: 0 !important;   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+    font-size: 500%;
+    font-family: fantasy;
+    color: wheat;
+    text-align: center;
+}
+a{
+    
+    text-decoration: none;
+    color: wheat;
+
+}
+/*
+a{
+    cursor:url('img/cursor.cur'), auto;
+}
+*/
+
+ul{
+    display: flex;
+
+}
+ul.ul2{
+    display: flex;
+}
+ul.ulGeneros{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 87%;
+    
+}
+li {
+    font-size: 150%;
+    font-family: fantasy;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200%;     
+    text-align: center;
+}
+
+li.li3{
+    font-size: 100%;
+    font-family: fantasy;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+             
+    text-align: center;
+    margin-left: 5% ;
+}
+
+div.texto{
+    font-size: 250%;
+    font-family: fantasy;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    
+}
+div.texto2{
+    font-size: 120%;
+    font-family: fantasy;
+    text-align: left;
+    display: flex;
+    width: 10%;
+    
+    
+}
+
+main{
+    font-size: 200%;
+    font-family: fantasy;
+    color: wheat;        
+    padding: 1%;
+    margin: 9%;
+ 
+    
+
+}
+footer{
+    
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    text-align: center;
+    align-content: center;
+    
+}
+p.elvistexto{
+    font-size: 70%;
+    font-family: fantasy;
+    color: wheat;  
+   }
+p.Bobtexto{
+    font-size: 70%;
+    font-family: fantasy;
+     color: wheat;  
+   
+   }
+p.heredeiros{
+    font-size: 70%;
+}
+p.marea{
+    font-size: 70%;
+}
+p.baron{
+    font-size: 70%;
+}
+p.morgan{
+    font-size: 70%;
+}
+p.kitai{
+    font-size: 70%;
+}
+span{    
+    font-family: sans-serif;
+    font-size: 130%;
+    
+}
+
+  
+  div.led{
+    font-family: fantasy;
+    font-size: 130%;
+    color: wheat;
+
+  }  
+  div.iron{
+    font-family: fantasy;
+    font-size: 130%;
+    color: wheat;
+}  
+div.bob{
+    font-family: fantasy;
+    font-size: 130%;
+    color: wheat;
+}  
+div.elvis{
+    text-align: center;
+     
+   }
+div.Bobdylan{
+    text-align: center;
+   }
+
+   
+div.noticiairon{
+    text-align: center;
+   }
+div.heredeiros{
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+     width: 50%;
+     padding-left: 24%;    
+   }
+div.marea{
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+     width: 50%;
+     padding-left: 24%; 
+}
+div.baron{
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+     width: 50%;
+     padding-left: 24%; 
+}
+
+div.morgan{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+    width: 50%;
+    padding-left: 24%;  
+}
+div.kitai{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+    width: 50%;
+    padding-left: 24%;  
+}
+
+   
+#kitai{
+    width: 300px;
+    margin-left: 25%;
+}
+
+#led{
+    width: 100%;
+}
+#iron{
+    width: 100%;
+    
+}
+#bob{
+    width: 100%;
+}
+#marea{
+    width: 300px;
+    height: 300px;
+    margin-left: 25%;
+}
+
+div.contenedor{
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+    padding-bottom: 1%;
+    margin-left: 35%;
+    margin-bottom: 15%;
+	
+}
+
+div.formtop {
+	width: 100%;
+	text-align: center;
+	padding:  0 ;
+	border-top: solid  #F39B53;
+	margin-bottom: 1%;
+}
+
+div.formtop h2 {
+	font-weight: bold;
+	color: #CAC8C8;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #F39B53;
+}
+
+div.form{
+	padding: 0 ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.btnformulario {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1%;
+}
+
+.input, .registrar, .limpiar{
+	background-color: #EFEFEF;
+	padding: 1%;
+	margin: 1%;
+	border: none;
+	border-bottom: solid #C8C8C8 ;
+	transition: all ;
+}
+
+.input:focus {
+	border-bottom: solid #F39B53 ;
+}
+
+.registrar, .btnlimpiar {
+	width: 40%;
+	border-bottom: none;
+	
+}
+
+.btnlimpiar {
+	background-color: #EDA135;
+}
+
+.registrar:hover {
+	background-color: #4C9ED9;
+}
+
+.limpiar:hover{
+	background-color: #FA9535;
+}
+
+
