@@ -327,11 +327,16 @@ div.btnformulario {
 @media (min-width: 320px) and (max-width: 480px){
 
     header{
+        text-align: center;
        flex-direction: column; 
        font-size: 50%;
     }
     footer{
+        text-align: center;
         flex-direction:column ;
+    }
+   
+        
     }
     ul{
         padding: 0;
@@ -343,11 +348,12 @@ div.btnformulario {
     ul.ulGeneros{
         display: flex;
         flex-direction: column;
-        margin-right: 100%;
+        margin-right: 10%;
+        margin-left: 20%;
         
     }
     li.li3{
-        text-align: center;
+    text-align: center;
     font-size: 100%;
     font-family: fantasy;
     list-style: none;
