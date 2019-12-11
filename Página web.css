@@ -340,5 +340,11 @@ div.btnformulario {
     h1{
         font-size: 100%;
     }
+    ul.ulGeneros{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50%;
+        
+    }
 }
 
