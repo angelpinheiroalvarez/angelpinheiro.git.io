@@ -343,7 +343,7 @@ div.btnformulario {
     ul.ulGeneros{
         display: flex;
         flex-direction: column;
-        margin-right: 30%;
+        margin-right: 100%;
         
     }
     li.li3{
