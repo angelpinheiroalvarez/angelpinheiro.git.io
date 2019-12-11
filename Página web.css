@@ -87,7 +87,8 @@ li.li3{
     font-family: fantasy;
     list-style: none;
     display: flex;
-    flex-direction: column;             
+    flex-direction: column;
+             
     text-align: center;
     margin-left: 5% ;
 }
@@ -335,7 +336,7 @@ div.btnformulario {
     }
    
         
-    }
+    
     ul{
         padding: 0;
         font-size: 70%;
@@ -345,7 +346,7 @@ div.btnformulario {
     }
     ul.ulGeneros{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         margin-right: 10%;
         margin-left: 20%;
         
@@ -356,7 +357,7 @@ div.btnformulario {
     font-family: fantasy;
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-direction:column ;
     margin-left:0 ;
     }
     #Heavy{
@@ -399,5 +400,5 @@ div.btnformulario {
         margin-right: 60% ;
     }
 
-
+}
 
