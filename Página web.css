@@ -351,16 +351,30 @@ div.btnformulario {
     font-family: fantasy;
     list-style: none;
     display: flex;
-    flex-direction: column;
-             
-    text-align: center;
+    flex-direction:column ;
     margin-left:0 ;
     }
     #Heavy{
         width: 200px;
+        height: 200px;       
+        
+    }
+    #Rock´nRoll{
+        width: 200px;
+        height: 200px; 
+    }
+    #Garage{
+        width: 200px;
         height: 200px;
-        
-        
+
+    }
+    #Grunge{
+        width: 200px;
+        height: 200px;
+    }
+    #Punk{
+        width: 200px;
+        height: 200px;
     }
 }
 
