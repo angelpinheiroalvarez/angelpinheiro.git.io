@@ -323,17 +323,81 @@ div.btnformulario {
 	background-color: #FA9535;
 }
 
-@media(max-width: 480px){
+@media (min-width: 320px) and (max-width: 480px){
 
+    header{
+        text-align: center;
+       flex-direction: column; 
+       font-size: 50%;
+    }
+    footer{
+        flex-direction:column ;
+    }
    
+        
+    }
+    ul{
+        padding: 0;
+        font-size: 70%;
+    }
+    h1{
+        font-size: 100%;
+    }
     ul.ulGeneros{
         display: flex;
         justify-content: space-between;
-        margin-right: 87%;
+        margin-right: 10%;
+        margin-left: 20%;
         
     }
-}
+    li.li3{
+    text-align: center;
+    font-size: 100%;
+    font-family: fantasy;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left:0 ;
+    }
+    #Heavy{
+        
+        width: 200px;
+        height: 200px;       
+        
+    }
+    #Rock´nRoll{
+        width: 200px;
+        height: 200px; 
+    }
+    #Garage{
+        width: 200px;
+        height: 200px;
+
+    }
+    #Grunge{
+        width: 200px;
+        height: 200px;
+    }
+    #Punk{
+        width: 200px;
+        height: 200px;
+    }
+    a.heavy{
+        margin-right: 60% ;
+    
+    }
+    a.rock{
+        margin-right: 60% ;
+    }
+    a.garage{
+        margin-right: 60% ;
+    }
+    a.grunge{
+        margin-right: 60% ;
+    }
+    a.punk{
+        margin-right: 60% ;
+    }
 
 
 
-   
