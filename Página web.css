@@ -346,5 +346,21 @@ div.btnformulario {
         margin-right: 10%;
         
     }
+    li.li3{
+    font-size: 100%;
+    font-family: fantasy;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+             
+    text-align: center;
+    margin-left:0 ;
+    }
+    #Heavy{
+        width: 200px;
+        height: 200px;
+        
+        
+    }
 }
 
