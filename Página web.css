@@ -18,11 +18,7 @@ header{
 
 }
 
-h2{
-    color: wheat;
-    font-size: 300%;
-    text-align: center;
-}
+
 
     
 
@@ -43,6 +39,11 @@ h1{
     font-size: 500%;
     font-family: fantasy;
     color: wheat;
+    text-align: center;
+}
+h2{
+    color: wheat;
+    font-size: 300%;
     text-align: center;
 }
 a{
@@ -335,6 +336,9 @@ div.btnformulario {
     ul{
         padding: 0;
         font-size: 70%;
+    }
+    h1{
+        font-size: 50%;
     }
 }
 
