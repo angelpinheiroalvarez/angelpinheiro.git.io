@@ -87,7 +87,7 @@ li.li3{
     font-family: fantasy;
     list-style: none;
     display: flex;
-    justify-content: space-between;             
+    flex-direction: column;             
     text-align: center;
     margin-left: 5% ;
 }
@@ -326,7 +326,13 @@ div.btnformulario {
 @media(max-width: 480px){
 
    
-   
+    ul.ulGeneros{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 87%;
+        
+    }
+}
 
 
 
