@@ -347,6 +347,7 @@ div.btnformulario {
         
     }
     li.li3{
+        text-align: center;
     font-size: 100%;
     font-family: fantasy;
     list-style: none;
@@ -355,6 +356,7 @@ div.btnformulario {
     margin-left:0 ;
     }
     #Heavy{
+        
         width: 200px;
         height: 200px;       
         
@@ -376,5 +378,22 @@ div.btnformulario {
         width: 200px;
         height: 200px;
     }
+    a.heavy{
+        margin-right: 60% ;
+    
+    }
+    a.rock{
+        margin-right: 60% ;
+    }
+    a.garage{
+        margin-right: 60% ;
+    }
+    a.grunge{
+        margin-right: 60% ;
+    }
+    a.punk{
+        margin-right: 60% ;
+    }
+
 }
 
